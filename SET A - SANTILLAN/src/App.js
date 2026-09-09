@@ -130,7 +130,7 @@ function App() {
             </label>
             <label className="field">
               <span>Duration (hours)</span>
-              <input name="duration" type="number" min="1" value={form.duration} onChange={updateField} placeholder="Enter hours" />
+               <input name="duration" type="number" min="1" value={form.duration} onChange={updateField} placeholder="Enter hours" />
               {form.duration && <small className="field-hint">{getDurationLabel(Number(form.duration))}</small>}
               {errors.duration && <small className="error">{errors.duration}</small>}
             </label>
