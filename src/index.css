@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background: #f4f6f7;
+  color: #172a3a;
+  font-family: 'Trebuchet MS', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
